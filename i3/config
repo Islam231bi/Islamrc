@@ -200,6 +200,7 @@ exec --no-startup-id nautilus
 exec --no-startup-id code 
 exec --no-startup-id brave-browser 
 exec --no-startup-id gnome-terminal 
+exec --no-startup-id picom
 
 # Screenshots
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/Screenshots/$(date)"
