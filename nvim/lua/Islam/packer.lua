@@ -29,13 +29,13 @@ return require('packer').startup(function(use)
       end
   }) --]]
   
-  use({
+--[[  use({
       'EdenEast/nightfox.nvim',
       as = 'nightfox',
       config = function()
           vim.cmd('colorscheme carbonfox')
       end
-  })
+  }) --]]
 
   use({
       "ellisonleao/gruvbox.nvim",
@@ -43,7 +43,7 @@ return require('packer').startup(function(use)
       config = function()
           vim.cmd('colorscheme gruvbox')
       end
-  })
+  }) 
 
 
   use {
@@ -82,6 +82,7 @@ return require('packer').startup(function(use)
     use("folke/zen-mode.nvim")
     use('ThePrimeagen/vim-be-good')
     use('fmoralesc/vim-tutor-mode')
-
+    use('nvim-tree/nvim-web-devicons')
+    use('nvim-lualine/lualine.nvim')
 
 end)
